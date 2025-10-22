@@ -1,105 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AFK Engineers | Team Landing Page</title>
-    <style>
-      body {
-        font-family: "Segoe UI", sans-serif;
-        background-color: #f5f5f5;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #0078d7;
-        color: white;
-        text-align: center;
-        padding: 20px 0;
-      }
-      main {
-        max-width: 900px;
-        margin: 30px auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      }
-      section {
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        margin: 15px 0;
-        padding: 15px;
-      }
-      h2 {
-        color: #0078d7;
-        margin-bottom: 8px;
-      }
-      a {
-        color: #0078d7;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>AFK Engineers</h1>
-      <p>
-        Welcome to AFK Engineers — where code compiles, games run smooth, and
-        minds stay sharp (even when we’re AFK).
-      </p>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFK Engineers - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>AFK Engineers</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <main>
-      <section>
-        <h2>Ndame Sepete</h2>
-        <p><strong>ID:</strong> 2410559</p>
-        <p><strong>Role:</strong>Team Leader / Frontend Developer</p>
-        <p>
-          <strong>Bio:</strong> Passionate about clean web design, intuitive
-          user experiences, and bringing game-inspired interactivity to life on
-          the web. Leads the AFK Engineers team while coordinating code merges
-          and maintaining a responsive UI.
-        </p>
-        <p><a href="https://github.com/Keep27">GitHub Profile</a></p>
-      </section>
- 
-     <section>
-      <h2>Moses phiri</h2>
-      <p><strong>ID:</strong> 2410103</p>
-      <p><strong>Role:</strong>SOFTWARE DESIGENER</p>
-      <p><strong>Bio:</strong>  as a dedicated software engineer i'm driven by passiona for crafting innovative solutions that transform, motivate and move lives .i love design .</p>
-      <p><a href="https://github.com/phirizozo34-prog/MOSES-PHIRI-">GitHub Profile</a></p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to AFK Engineers</h1>
+            <p>Creating amazing web experiences for the digital world</p>
+            <a href="services.html" class="btn-primary">Get Started</a>
+        </div>
     </section>
- 
-      <section>
-        <h2>Gabriel Mwila</h2>
-        <p><strong>ID:</strong> 2410234</p>
-        <p><strong>Role:</strong>Full Stack Developer</p>
-        <p>
-          <strong>Bio:</strong>Passionate about building efficient, scalable
-          software solutions. Experienced in frontend and backend development.
-        </p>
-        <p><a href="https://github.com/gabrielmwila28">GitHub Profile</a></p>
 
-      </section>
-        
-        
-      <section>
-        <h2>Martin Muloshi</h2>
-        <p><strong>ID:</strong> 2410009</p>
-        <p><strong>Role:</strong>Software Developer</p>
-        <p>
-          <strong>Bio:</strong> Passionate about clean Software Developer,
-          intuitive user experiences, inspired interactivityto life on the software.
-        </p>
-        <p>
-          <a href="https://github.com/muloshimartin75-cyber">GitHub Profile</a>
-        </p>
-         </section>
-    </main>
-  </body>
+    <!-- Personal Section -->
+    <section class="personal-section">
+        <div class="container">
+            <div class="personal-card">
+                <div class="personal-header">
+                    <div class="avatar">👨‍🎨</div>
+                    <h2>Ndame Sepete</h2>
+                    <p class="role">Frontend Developer</p>
+                </div>
+                <div class="personal-details">
+                    <div class="detail-item">
+                        <span class="label">Student ID:</span>
+                        <span class="value">2410559</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Role:</span>
+                        <span class="value">Lead Frontend Developer</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Bio:</span>
+                        <span class="value">Passionate about creating beautiful and functional web experiences. Specializing in modern CSS and JavaScript frameworks.</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">GitHub:</span>
+                        <a href="https://github.com/keep27" class="github-link" target="_blank">github.com/alexjohnson</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Beautiful and responsive designs that work on all devices</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Development</h3>
+                    <p>Quick turnaround times without compromising quality</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Maintenance</h3>
+                    <p>Ongoing support and updates for your website</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AFK Engineers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
